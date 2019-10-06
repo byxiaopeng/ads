@@ -1,19 +1,15 @@
-FROM alpine:3.8
-MAINTAINER oldiy <oldiy@163.com>
+FROM alpine:3.9
+MAINTAINER yangliu <istef.liu@gmail.com>
 
 WORKDIR /
-ENV NPC_VERSION 0.23.2
+ENV NPS_VERSION 0.23.2
+ENV NPS_RELEASE_URL https://github.com/cnlh/nps/releases/download/v0.23.2/linux_amd64_server.tar.gz
 
 RUN set -x && \
-	wget --no-check-certificate https://github.com/cnlh/nps/releases/download/v${NPC_VERSION}/linux_arm64_client.tar.gz && \ 
-	mkdir \npc && \
-	mv linux_arm64_client* /npc && \
-	cd /npc && \
-	tar xzf linux_arm64_client.tar.gz && \
-	rm -rf *.tar.gz && \
-	rm *.conf
+	wget --no-check-certificate ${NPS_RELEASE_URL} && \ 
+	tar xzf linux_amd64_server.tar.gz && \
+    rm linux_amd64_server.tar.gz
 
-ENV SERVERIP 127.0.0.1:8284
-ENV VKEY 123
+VOLUME /nps/conf
 
-CMD /npc/npc -server=${SERVERIP} -vkey=${VKEY}
+CMD /nps/nps
