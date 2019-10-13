@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
+!
 ! Title:bypengADS
-! Homepage: https://jq.qq.com/?
+! Homepage: https://github.com/byxiaopeng/ads
 ! by:小朋
 ||da.mgtv.com
 ||t7z.cupid.ptqy.gitv.tv
