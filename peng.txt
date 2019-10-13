@@ -1,0 +1,28 @@
+[Adblock Plus 2.0]
+! Title:bypengADS
+! Homepage: https://jq.qq.com/?
+! by:小朋
+||da.mgtv.com
+||t7z.cupid.ptqy.gitv.tv
+||boooba.com
+||develop.waxrain.com
+||xdrig.com
+||snssdk.com
+@@||verify.snssdk.com
+||v3-ad.ixigua.com
+||50bang.org
+||umeng.com
+||irs01.com
+||applog.uc.cn
+||log.umsns.com
+||adash.man.aliyuncs.com
+||appjiagu.com
+||sdk.e.qq.com
+||ssl.google-analytics.com
+||googleads.g.doubleclick.net
+||static.doubleclick.net
+||android.bugly.qq.com
+||pingma.qq.com
+||p.tencentmind.com
+||mediav.com
+||amemv.com
