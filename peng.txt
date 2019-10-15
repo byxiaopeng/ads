@@ -27,6 +27,6 @@
 ||mediav.com
 ||amemv.com
 ||adservice.google.com
-||pagead2.googlesyndication.com
+||googlesyndication.com
 ||doubleclick.net
 ||google-analytics.com
