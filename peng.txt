@@ -26,7 +26,3 @@
 ||p.tencentmind.com
 ||mediav.com
 ||amemv.com
-||adservice.google.com
-||googlesyndication.com
-||doubleclick.net
-||google-analytics.com
