@@ -18,9 +18,6 @@
 ||adash.man.aliyuncs.com
 ||appjiagu.com
 ||sdk.e.qq.com
-||ssl.google-analytics.com
-||googleads.g.doubleclick.net
-||static.doubleclick.net
 ||android.bugly.qq.com
 ||pingma.qq.com
 ||p.tencentmind.com
@@ -28,3 +25,5 @@
 ||amemv.com
 ||adservice.google.com
 ||pagead2.googlesyndication.com
+||googleads.g.doubleclick.net
+||static.doubleclick.net
