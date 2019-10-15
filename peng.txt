@@ -25,5 +25,4 @@
 ||amemv.com
 ||adservice.google.com
 ||pagead2.googlesyndication.com
-||googleads.g.doubleclick.net
-||static.doubleclick.net
+||doubleclick.net
