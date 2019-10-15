@@ -27,3 +27,4 @@
 ||mediav.com
 ||amemv.com
 ||adservice.google.com
+||pagead2.googlesyndication.com
