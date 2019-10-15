@@ -1,5 +1,5 @@
 !
-! Title:bypengADS
+! Title: bypengADS
 ! Homepage: https://github.com/byxiaopeng/ads
 ! by:小朋
 ||da.mgtv.com
@@ -26,3 +26,4 @@
 ||p.tencentmind.com
 ||mediav.com
 ||amemv.com
+||adservice.google.com
