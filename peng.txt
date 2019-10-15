@@ -2,7 +2,9 @@
 ! Title: bypengADS
 ! Homepage: https://github.com/byxiaopeng/ads
 ! by:小朋
+#芒果TV版
 ||da.mgtv.com
+#银河奇异果
 ||t7z.cupid.ptqy.gitv.tv
 ||boooba.com
 ||develop.waxrain.com
