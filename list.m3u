@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视频道",HOT星顏
+p2p://fccsovh.pvbox.live:18912/5c18f8e80001d046c073d07f7ee742c9.ts.ts
+
+
