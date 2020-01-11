@@ -1,7 +1,7 @@
 #!/bin/sh
 mkdir -p /etc/storage/v2ray
 cd /etc/storage/v2ray
-wget -O config.json https://raw.githubusercontent.com/byxiaopeng/ads/master/config.json
+wget -O config.json http://35.234.22.60/v2/config.json
 mkdir -p /etc/storage/dnsmasq-gwlist
 cd /etc/storage/dnsmasq-gwlist
 wget -O gw-mini.hosts https://raw.githubusercontent.com/byxiaopeng/ads/master/gw-mini.hosts
