@@ -37,7 +37,6 @@
                         "users": [
                             {
                                 "id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
-				"alterId": 64,
                                 "security": "none"
                             }
                         ]
@@ -47,15 +46,8 @@
             "streamSettings": {
                 "network": "ws",
                 "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": ""
-                },
                 "wsSettings": {
-                    "path": "/ws",
-                    "headers": {
-                        "Host": ""
-                    }
+                    "path": "/ws"
                 }
             },
             "mux": {
