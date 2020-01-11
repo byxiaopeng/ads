@@ -37,7 +37,7 @@
                         "users": [
                             {
                                 "id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
-								"alterId": 64,
+				"alterId": 64,
                                 "security": "none"
                             }
                         ]
@@ -67,14 +67,14 @@
         "rules": [
             {
                 "type": "field",
-                "outboundTag": "block",//拦截广告相关域名
+                "outboundTag": "block",//鎷︽埅骞垮憡鐩稿叧鍩熷悕
                 "domain": [
                     "ext:h2y.dat:ad"
                 ]
             },            
             {
                 "type": "field",
-                "outboundTag": "proxy",//被gfw屏蔽的域名走代理
+                "outboundTag": "proxy",//琚玤fw灞忚斀鐨勫煙鍚嶈蛋浠ｇ悊
                 "domain": [
                     "ext:h2y.dat:gfw",
                     "domain:google.com.hk",
@@ -83,7 +83,7 @@
             },
             {
                 "type": "field",
-                "outboundTag": "proxy",//代理TELEGRAM
+                "outboundTag": "proxy",//浠ｇ悊TELEGRAM
                     "ip": [
                     "91.108.12.0/22",
                     "149.154.172.0/22",
@@ -100,7 +100,7 @@
             {
                 "type": "field",
                 "network": "tcp,udp",
-                "outboundTag": "direct"//默认直连
+                "outboundTag": "direct"//榛樿鐩磋繛
             }
         ]
     }
