@@ -1,0 +1,107 @@
+{
+    "inbounds": [
+        {
+            "port": 1234,
+            "listen": "0.0.0.0",
+            "protocol": "dokodemo-door",
+            "settings": {
+                "network": "tcp",
+                "followRedirect": true
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "tag": "blocked"
+        },
+        {
+            "protocol": "vmess",
+            "tag": "proxy",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "byxiaopeng.usw1.kubesail.io",
+                        "port": 443,
+                        "users": [
+                            {
+                                "id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
+								"alterId": 64,
+                                "security": "none"
+                            }
+                        ]
+                    }					
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": ""
+                },
+                "wsSettings": {
+                    "path": "/ws",
+                    "headers": {
+                        "Host": ""
+                    }
+                }
+            },
+            "mux": {
+                "enabled": true
+            }
+        }
+    ],
+    "routing": {
+        "rules": [
+            {
+                "type": "field",
+                "outboundTag": "block",//拦截广告相关域名
+                "domain": [
+                    "ext:h2y.dat:ad"
+                ]
+            },            
+            {
+                "type": "field",
+                "outboundTag": "proxy",//被gfw屏蔽的域名走代理
+                "domain": [
+                    "ext:h2y.dat:gfw",
+                    "domain:google.com.hk",
+                    "domain:github.com"
+                ]
+            },
+            {
+                "type": "field",
+                "outboundTag": "proxy",//代理TELEGRAM
+                    "ip": [
+                    "91.108.12.0/22",
+                    "149.154.172.0/22",
+                    "91.108.16.0/22",
+                    "91.108.56.0/23",
+                    "149.154.168.0/22",
+                    "91.108.4.0/22",
+                    "91.108.8.0/22",
+                    "91.108.56.0/22",
+                    "149.154.160.0/20",
+                    "149.154.164.0/22"
+                ]
+            },
+            {
+                "type": "field",
+                "network": "tcp,udp",
+                "outboundTag": "direct"//默认直连
+            }
+        ]
+    }
+}
