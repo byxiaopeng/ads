@@ -2,6 +2,8 @@
 ! Title: bypengADS
 ! Homepage: https://github.com/byxiaopeng/ads
 ! by:小朋
+# [腾讯云视听]
+sv-video.play.aiseet.atianqi.com
 # [芒果TV版]
 ||da.mgtv.com
 # [银河奇异果]
