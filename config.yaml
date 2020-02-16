@@ -30,14 +30,7 @@ Rule:
 # > Google
 - DOMAIN-SUFFIX,google.com,PROXY
 # > YouTube及YouTube TV
-- DOMAIN-SUFFIX,ggpht.com,PROXY
-- DOMAIN-SUFFIX,googleapis.com,PROXY
-- DOMAIN-SUFFIX,googletagmanager.com,PROXY
-- DOMAIN-SUFFIX,googleusercontent.com,PROXY
-- DOMAIN-SUFFIX,googlevideo.com,PROXY
-- DOMAIN-SUFFIX,gstatic.com,PROXY
-- DOMAIN-SUFFIX,imrworldwide.com,PROXY
-- DOMAIN-SUFFIX,ytimg.com,PROXY
+- DOMAIN-SUFFIX,youtu.be,PROXY
 - DOMAIN-SUFFIX,youtube.com,PROXY
 - DOMAIN-SUFFIX,gvt2.com,PROXY
 # > facebook
