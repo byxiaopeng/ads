@@ -28,16 +28,17 @@ Rule:
 
 # Unbreak
 # > Google
-- DOMAIN-SUFFIX,youtube.com,PROXY
 - DOMAIN-SUFFIX,google.com,PROXY
-- DOMAIN-SUFFIX,ytimg.com,PROXY
-- DOMAIN-SUFFIX,ggpht.com,PROXY
-- DOMAIN-SUFFIX,googlevideo.com,PROXY
-- DOMAIN-SUFFIX,googleapis.com,PROXY
-- DOMAIN-SUFFIX,youtu.be,PROXY
-# > Google云盘
-- DOMAIN-SUFFIX,googleusercontent.com,PROXY
-
+# > YouTube及YouTube TV
+- DOMAIN-SUFFIX,ggpht.com
+- DOMAIN-SUFFIX,googleapis.com
+- DOMAIN-SUFFIX,googletagmanager.com
+- DOMAIN-SUFFIX,googleusercontent.com
+- DOMAIN-SUFFIX,googlevideo.com
+- DOMAIN-SUFFIX,gstatic.com
+- DOMAIN-SUFFIX,imrworldwide.com
+- DOMAIN-SUFFIX,ytimg.com
+- DOMAIN-SUFFIX,youtube.com
 # > facebook
 - DOMAIN-SUFFIX,facebook.com,PROXY
 - DOMAIN-SUFFIX,facebook.net,PROXY
