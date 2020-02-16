@@ -15,10 +15,6 @@ dns:
   enhanced-mode: fake-ip
   nameserver:
     - 192.168.50.1 #电信
-
-
-
-
 Proxy:
 
 - { name: "1", type: vmess, server: prov2ss.cnm.workers.dev, port: 443, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, network: ws, ws-path: /, tls: true }
@@ -52,6 +48,8 @@ Rule:
 
 # > iQiyi
 - DOMAIN,t7z.cupid.ptqy.gitv.tv,REJECT
+# > 芒果TV
+- DOMAIN,da.mgtv.com,REJECT
 # > 乐播投屏
 - DOMAIN,ad.hpplay.cn,REJECT
 - DOMAIN,adeng.hpplay.cn,REJECT
