@@ -34,7 +34,7 @@ Rule:
 - DOMAIN-SUFFIX,ggpht.com,PROXY
 - DOMAIN-SUFFIX,googlevideo.com,PROXY
 - DOMAIN-SUFFIX,googleapis.com,PROXY
-
+- DOMAIN-SUFFIX,youtu.be,PROXY
 # > Google云盘
 - DOMAIN-SUFFIX,googleusercontent.com,PROXY
 
