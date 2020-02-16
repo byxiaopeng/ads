@@ -32,6 +32,9 @@ Rule:
 # > YouTube及YouTube TV
 - DOMAIN-SUFFIX,youtu.be,PROXY
 - DOMAIN-SUFFIX,youtube.com,PROXY
+- DOMAIN-SUFFIX,googlevideo.com,PROXY
+- DOMAIN-SUFFIX,ytimg.com,PROXY
+- DOMAIN-SUFFIX,ggpht.com,PROXY
 - DOMAIN-SUFFIX,gvt2.com,PROXY
 # > facebook
 - DOMAIN-SUFFIX,facebook.com,PROXY
