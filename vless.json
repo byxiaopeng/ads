@@ -10,8 +10,8 @@
           "level": 0,
           "email": "love@v2fly.org"
         }
-      ]
-    "decryption": "none"
+      ],
+      "decryption": "none"
     },
     "streamSettings": {
       "network": "ws",
