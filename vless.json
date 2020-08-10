@@ -12,6 +12,8 @@
         }
       ]
     },
+    "decryption": "none"
+    },
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
