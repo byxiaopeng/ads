@@ -19,13 +19,12 @@
           "congestion": true,
           "header": {
             "type": "utp"
+          "seed": "peng"  
           }
         }
       }
     }
   ],
-  "seed": "peng"
-  }
   "outbounds": [
     {
       "protocol": "freedom",
