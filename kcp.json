@@ -18,9 +18,9 @@
           "downlinkCapacity": 100,
           "congestion": true,
           "header": {
-            "type": "utp"
-          "seed": "peng"  
-          }
+            "type": "utp"  
+          },
+          "seed": "peng"
         }
       }
     }
