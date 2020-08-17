@@ -1,0 +1,35 @@
+{
+  "inbounds": [
+    {
+      "port": 8081,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
+            "alterId": 64
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "mkcp", //此处的 mkcp 也可写成 kcp，两种写法是起同样的效果
+        "kcpSettings": {
+          "uplinkCapacity": 10,
+          "downlinkCapacity": 100,
+          "congestion": true,
+          "header": {
+            "type": "utp"
+          }
+        }
+      }
+    }
+  ],
+  "seed": "peng"
+  }
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
