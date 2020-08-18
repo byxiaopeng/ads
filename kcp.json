@@ -12,11 +12,15 @@
         ]
       },
       "streamSettings": {
-        "network": "mkcp", //此处的 mkcp 也可写成 kcp，两种写法是起同样的效果
+        "network": "mkcp",
         "kcpSettings": {
+		  "mtu": 1350,
+		  "tti": 20,
           "uplinkCapacity": 10,
           "downlinkCapacity": 100,
           "congestion": true,
+          "readBufferSize": 2,
+          "writeBufferSize": 2,
           "header": {
             "type": "utp"  
           },
