@@ -1,15 +1,14 @@
 {
   "inbounds": [
-    {
-      "port": 8080, // 监听端口
-      "protocol": "shadowsocks",
-      "settings": {
-        "method": "chacha20-ietf-poly1305",
-        "ota": true, // 是否开启 OTA
-        "password": "peng"
-      }
-    }
-  ],
+  {
+    "port": 80,
+    "protocol": "shadowsocks",
+    "settings": {
+         "method": "chacha20-ietf-poly1305",
+		 "password": "peng",
+         "ota": true,
+		 "level": 0
+    },
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
@@ -17,11 +16,11 @@
       }     
     }
   }
-  ],  
+  ],
   "outbounds": [
-    {
-      "protocol": "freedom",  
-      "settings": {}
-    }
+  {
+    "protocol": "freedom",
+    "settings": {}
+  }
   ]
 }
