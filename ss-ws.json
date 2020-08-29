@@ -1,7 +1,7 @@
 {
   "inbounds": [
   {
-    "port": 80,
+    "port": 8080,
     "protocol": "shadowsocks",
     "settings": {
          "method": "chacha20-ietf-poly1305",
