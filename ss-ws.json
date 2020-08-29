@@ -6,7 +6,7 @@
     "settings": {
          "method": "chacha20-ietf-poly1305",
 		 "password": "peng",
-         "ota": true,
+         "ota": false,
 		 "level": 0
     },
     "streamSettings": {
