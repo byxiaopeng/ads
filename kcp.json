@@ -18,8 +18,8 @@
                 "uplinkCapacity": 10,
                 "downlinkCapacity": 100,
                 "congestion": true,
-                "readBufferSize": 2,
-                "writeBufferSize": 2,
+                "readBufferSize": 5,
+                "writeBufferSize": 5,
                 "header": {
                     "type": "utp"
                 },
