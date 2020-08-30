@@ -1,26 +1,40 @@
 {
-	"inbounds": [{
-		"port": 8081,
-		"protocol": "vmess",
-		"settings": {
-			"clients": [{
-				"id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
-				"alterId": 64
-			}]
-		},
-		"streamSettings": {
-			"network": "quic",
-			"quicSettings": {
-				"security": "chacha20-poly1305",
-				"key": "peng",
-				"header": {
-					"type": "wechat-video"
-				}
-			}
-		}
-	}],
-	"outbounds": [{
-		"protocol": "freedom",
-		"settings": {}
-	}]
+  "inbounds": [
+    {
+      "port": 8388,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
+            "level": 0,
+            "email": "love@v2fly.org"
+          }
+        ],
+		"decryption": "none"
+      },
+      "streamSettings": {
+        "network": "mkcp",
+        "kcpSettings": {
+		  "mtu": 1350,
+		  "tti": 20,
+          "uplinkCapacity": 10,
+          "downlinkCapacity": 100,
+          "congestion": true,
+          "readBufferSize": 2,
+          "writeBufferSize": 2,
+          "header": {
+            "type": "utp"  
+          },
+          "seed": "peng"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
 }
