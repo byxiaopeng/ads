@@ -4,25 +4,15 @@
         "protocol": "vless",
         "settings": {
             "clients": [{
+                "decryption": "none",
                 "id": "ad806487-2d26-4636-98b6-ab85cc8521f7",
                 "level": 0,
                 "email": "love@v2fly.org"
-            }],
-            "decryption": "none"
+            }]
         },
         "streamSettings": {
             "network": "mkcp",
             "kcpSettings": {
-                "mtu": 1350,
-                "tti": 20,
-                "uplinkCapacity": 10,
-                "downlinkCapacity": 100,
-                "congestion": true,
-                "readBufferSize": 5,
-                "writeBufferSize": 5,
-                "header": {
-                    "type": "utp"
-                },
                 "seed": "peng"
             }
         }
