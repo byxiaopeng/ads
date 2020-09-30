@@ -1,7 +1,4 @@
 {
-    "log": {
-        "loglevel": "warning"
-    },
     "inbounds": [{
         "port": 8388,
         "protocol": "vless",
