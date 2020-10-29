@@ -7,6 +7,8 @@
 # [银河奇异果]
 ||t7z.cupid.ptqy.gitv.tv
 # //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
+||pl.cp31.ott.cibntv.net
+||ykugc.cp31.ott.cibntv.net
 ||e.crashlytics.com
 ||boooba.com
 # [waxrain投屏]
