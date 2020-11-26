@@ -16,6 +16,8 @@
 ||xdrig.com
 ||snssdk.com
 @@||verify.snssdk.com
+||api-access.pangolin-sdk-toutiao.com
+||log-api.pangolin-sdk-toutiao.com
 ||v3-ad.ixigua.com
 ||50bang.org
 ||umeng.com
